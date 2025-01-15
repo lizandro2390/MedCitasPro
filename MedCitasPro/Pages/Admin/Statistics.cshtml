@@ -1,0 +1,41 @@
+﻿@page
+@model StatisticsModel
+@{
+    ViewData["Title"] = "Estadísticas del Sistema";
+}
+
+<div class="container mt-5">
+    <h1>Estadísticas del Sistema</h1>
+    <a asp-page="/Dashboard" class="btn btn-secondary mt-3">Volver al Dashboard</a>
+
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">Usuarios Registrados</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.TotalUsers</h5>
+                    <p class="card-text">Usuarios en total (administradores, secretarias y pacientes).</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-header">Citas Programadas</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.TotalAppointments</h5>
+                    <p class="card-text">Citas registradas en el sistema.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-info mb-3">
+                <div class="card-header">Especialidades Médicas</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.TotalSpecialties</h5>
+                    <p class="card-text">Especialidades actualmente configuradas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

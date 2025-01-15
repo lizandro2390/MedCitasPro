@@ -13,9 +13,12 @@
         <h3>Opciones del Administrador</h3>
         <ul>
             <li><a asp-page="/Admin/ManageUsers">Gestionar Usuarios</a></li>
-            <li><a href="#">Configurar el Sistema</a></li>
+            <li><a asp-page="/Admin/SystemSettings">Configurar el Sistema</a></li>
+            <li><a asp-page="/Admin/Statistics">Ver Estadísticas</a></li>
         </ul>
     }
+
+
 
     else if (Model.Role == "Secretaria")
     {

@@ -1,0 +1,18 @@
+﻿@page "{email}"
+@model DeleteUserModel
+@{
+    ViewData["Title"] = "Eliminar Usuario";
+}
+
+<div class="container mt-5">
+    <h1>Eliminar Usuario</h1>
+    <a asp-page="/Admin/ManageUsers" class="btn btn-secondary mt-3">Volver a Gestión de Usuarios</a>
+
+
+    <p>¿Estás seguro de que deseas eliminar al usuario con el correo <strong>@Model.Email</strong>?</p>
+
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-page="/Admin/ManageUsers" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

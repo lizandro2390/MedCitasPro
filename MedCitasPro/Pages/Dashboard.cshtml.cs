@@ -10,14 +10,15 @@ namespace MedCitasPro.Pages
 
         public IActionResult OnGet(string role)
         {
-            // Validar que el rol esté definido
             if (string.IsNullOrEmpty(role))
             {
+                // Si falta el rol, redirige al inicio de sesión
                 return RedirectToPage("/Login");
             }
 
-            Role = role; // Asignar el rol al modelo//
+            Role = role;
             return Page();
         }
+
     }
 }

@@ -18,7 +18,7 @@ namespace MedCitasPro.Pages.Admin
                 return Page();
             }
 
-            // Aquí podrías guardar el usuario en la base de datos PRUEBA PARA GITHUB
+            // Aquí podrías guardar el usuario en la base de dat
             // Redirigir a la página de gestión de usuarios
             return RedirectToPage("/Admin/ManageUsers");
         }

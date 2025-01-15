@@ -1,0 +1,30 @@
+﻿@page "{id:int}"
+@model EditSpecialistModel
+@{
+    ViewData["Title"] = "Editar Especialista";
+}
+
+<div class="container mt-5">
+    <h1>Editar Especialista</h1>
+
+    <form method="post">
+        <div class="form-group mb-4">
+            <label for="name">Nombre del Especialista</label>
+            <input type="text" class="form-control" id="name" name="Name" value="@Model.Name" required />
+        </div>
+        <div class="form-group mb-4">
+            <label for="specialty">Especialidad</label>
+            <input type="text" class="form-control" id="specialty" name="Specialty" value="@Model.Specialty" required />
+        </div>
+        <div class="form-group mb-4">
+            <label for="phone">Teléfono</label>
+            <input type="text" class="form-control" id="phone" name="Phone" value="@Model.Phone" required />
+        </div>
+        <div class="form-group mb-4">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="Email" value="@Model.Email" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+        <a asp-page="/Admin/ManageSpecialists" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

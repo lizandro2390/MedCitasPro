@@ -30,12 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/DeleteSpecialist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlU3BlY2lhbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/DeleteSpecialty.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlU3BlY2lhbHR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/DeleteUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/EditSpecialist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFNwZWNpYWxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/EditSpecialty.cshtml]

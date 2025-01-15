@@ -1,0 +1,16 @@
+﻿@page "{id:int}"
+@model DeleteSpecialistModel
+@{
+    ViewData["Title"] = "Eliminar Especialista";
+}
+
+<div class="container mt-5">
+    <h1>Eliminar Especialista</h1>
+
+    <p>¿Estás seguro de que deseas eliminar al especialista <strong>@Model.Name</strong>?</p>
+
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-page="/Admin/ManageSpecialists" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

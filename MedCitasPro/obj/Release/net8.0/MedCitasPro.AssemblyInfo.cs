@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedCitasPro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f922333d19e7246c8eef9f9812ed319e6ec3127")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c00882d7079b7c44eb9c9d5d65438c50602b1332")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedCitasPro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedCitasPro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -35,7 +35,6 @@ C:\Users\lizan\source\repos\MedCitasPro\MedCitasPro\obj\Debug\net8.0\ref\MedCita
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\bin\Debug\net8.0\appsettings.json
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\bin\Debug\net8.0\MedCitasPro.staticwebassets.runtime.json
-C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\bin\Debug\net8.0\MedCitasPro.staticwebassets.endpoints.json
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\bin\Debug\net8.0\MedCitasPro.exe
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\bin\Debug\net8.0\MedCitasPro.deps.json
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\bin\Debug\net8.0\MedCitasPro.runtimeconfig.json
@@ -54,14 +53,11 @@ C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\scopedcss\projectbundle\MedCitasPro.bundle.scp.css
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets\msbuild.MedCitasPro.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets\msbuild.MedCitasPro.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets\msbuild.build.MedCitasPro.props
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MedCitasPro.props
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MedCitasPro.props
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\MedCitasPro.dll
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\refint\MedCitasPro.dll
 C:\Users\lizan\source\repos\lizandro2390\MedCitasPro\MedCitasPro\obj\Debug\net8.0\MedCitasPro.pdb

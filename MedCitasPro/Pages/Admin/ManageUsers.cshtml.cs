@@ -13,7 +13,7 @@ namespace MedCitasPro.Pages.Admin
 
         public void OnGet()
         {
-            // Aquí puedes cargar los usuarios desde una base de datos en el futuro
+            // Aquí puedes cargar los usuarios desde una base de datos en el futuro''''''''''''''''''''''''
         }
     }
 

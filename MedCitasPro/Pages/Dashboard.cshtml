@@ -1,0 +1,38 @@
+﻿@page
+@model DashboardModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-5">
+    <h1>Bienvenido al Dashboard</h1>
+    <p>@($"Tu rol actual es: {Model.Role}")</p>
+
+    @if (Model.Role == "Admin")
+    {
+        <h3>Opciones del Administrador</h3>
+        <ul>
+            <li><a asp-page="/Admin/ManageUsers">Gestionar Usuarios</a></li>
+            <li><a href="#">Configurar el Sistema</a></li>
+        </ul>
+    }
+
+    else if (Model.Role == "Secretaria")
+    {
+        <h3>Opciones de la Secretaria</h3>
+        <ul>
+            <li><a href="#">Registrar Citas</a></li>
+            <li><a href="#">Gestionar Pacientes</a></li>
+        </ul>
+    }
+    else if (Model.Role == "Paciente")
+    {
+        <h3>Opciones del Paciente</h3>
+        <ul>
+            <li><a href="#">Ver Citas</a></li>
+            <li><a href="#">Actualizar Información</a></li>
+        </ul>
+    }
+
+    <a href="/Login" class="btn btn-primary mt-4">Cerrar Sesión</a>
+</div>

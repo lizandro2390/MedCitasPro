@@ -36,9 +36,13 @@ namespace MedCitasPro.Pages
                 return Page();
             }
 
-            // Redirigir al dashboard con el rol del usuario
-            return RedirectToPage("/Dashboard", new { role = user.Role });
+            // Guardar el rol del usuario en la sesión
+            HttpContext.Session.SetString("UserRole", user.Role);
+
+            // Redirigir al Dashboard
+            return RedirectToPage("/Dashboard");
         }
+
 
     }
 

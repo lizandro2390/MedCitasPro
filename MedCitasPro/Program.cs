@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Agregar servicios al contenedor.
 builder.Services.AddRazorPages();
+builder.Services.AddSession(); // Habilitar sesiones
 
 var app = builder.Build();
 
@@ -22,6 +23,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseSession(); // Usar sesiones en la aplicación
 
 app.MapRazorPages();
 

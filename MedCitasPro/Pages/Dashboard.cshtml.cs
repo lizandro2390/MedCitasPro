@@ -8,17 +8,22 @@ namespace MedCitasPro.Pages
         [BindProperty]
         public string Role { get; set; }
 
-        public IActionResult OnGet(string role)
+
+        public IActionResult OnGet()
         {
-            if (string.IsNullOrEmpty(role))
+            // Recuperar el rol del usuario desde la sesión
+            Role = HttpContext.Session.GetString("UserRole");
+
+            // Si no hay rol en la sesión, redirigir al Login
+            if (string.IsNullOrEmpty(Role))
             {
-                // Si falta el rol, redirige al inicio de sesión
                 return RedirectToPage("/Login");
             }
 
-            Role = role;
             return Page();
         }
+
+
 
     }
 }

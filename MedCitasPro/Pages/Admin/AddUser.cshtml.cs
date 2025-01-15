@@ -17,6 +17,7 @@ namespace MedCitasPro.Pages.Admin
             {
                 return Page();
             }
+            TempData["SuccessMessage"] = "Horarios actualizados correctamente.";
 
             // Aquí podrías guardar el usuario en la base de dat
             // Redirigir a la página de gestión de usuarios

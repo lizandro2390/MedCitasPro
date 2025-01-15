@@ -33,6 +33,7 @@ namespace MedCitasPro.Pages.Admin
             // Simular eliminar paciente (más adelante conectaremos con la base de datos)
             TempData["SuccessMessage"] = "Paciente eliminado correctamente.";
 
+
             return RedirectToPage("/Admin/ManagePatients");
         }
     }

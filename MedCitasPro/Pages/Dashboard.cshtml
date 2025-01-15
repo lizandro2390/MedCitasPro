@@ -4,6 +4,14 @@
     ViewData["Title"] = "Dashboard";
 }
 
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
 <div class="container mt-5">
     <h1>Bienvenido al Dashboard</h1>
     <p>@($"Tu rol actual es: {Model.Role}")</p>
@@ -18,8 +26,11 @@
             <li><a asp-page="/Admin/ManageSpecialties">Gestionar Especialidades</a></li>
             <li><a asp-page="/Admin/ManageSpecialists">Gestionar Especialistas</a></li>
             <li><a asp-page="/Admin/ManagePatients">Gestionar Pacientes</a></li>
+            <li><a asp-page="/Admin/ManageSchedules">Gestionar Horarios</a></li>
         </ul>
     }
+
+    
 
 
 
@@ -42,6 +53,9 @@
             <li><a href="#">Actualizar Información</a></li>
         </ul>
     }
+
+   
+
 
     <a href="/Login" class="btn btn-primary mt-4">Cerrar Sesión</a>
 </div>

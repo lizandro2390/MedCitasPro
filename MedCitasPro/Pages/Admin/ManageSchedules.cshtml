@@ -1,0 +1,22 @@
+﻿@page
+@model ManageSchedulesModel
+@{
+    ViewData["Title"] = "Gestionar Horarios Generales";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Gestionar Horarios Generales</h1>
+
+    <form method="post">
+        <div class="form-group mb-4">
+            <label for="workingDays">Días de Atención</label>
+            <input type="text" class="form-control" id="workingDays" name="WorkingDays" value="@Model.WorkingDays" placeholder="Ejemplo: Lunes a Viernes" required />
+        </div>
+        <div class="form-group mb-4">
+            <label for="workingHours">Horario de Atención</label>
+            <input type="text" class="form-control" id="workingHours" name="WorkingHours" value="@Model.WorkingHours" placeholder="Ejemplo: 8:00 AM - 5:00 PM" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+        <a asp-page="/Dashboard" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

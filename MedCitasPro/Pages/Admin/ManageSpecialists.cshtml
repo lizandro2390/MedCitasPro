@@ -7,7 +7,6 @@
 <div class="container mt-5">
     <h1 class="mb-4">Gestionar Especialistas</h1>
 
-    <!-- Fila de botones -->
     <div class="row mb-3">
         <div class="col-md-6 text-start">
             <a asp-page="/Dashboard" class="btn btn-secondary">Volver al Dashboard</a>
@@ -17,7 +16,6 @@
         </div>
     </div>
 
-    <!-- Tabla de especialistas -->
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -37,6 +35,7 @@
                     <td>@specialist.Phone</td>
                     <td>@specialist.Email</td>
                     <td>
+                        <a asp-page="/Admin/AssignSchedule" asp-route-id="@specialist.Id" class="btn btn-primary btn-sm">Asignar Horario</a>
                         <a asp-page="/Admin/EditSpecialist" asp-route-id="@specialist.Id" class="btn btn-warning btn-sm">Editar</a>
                         <a asp-page="/Admin/DeleteSpecialist" asp-route-id="@specialist.Id" class="btn btn-danger btn-sm">Eliminar</a>
                     </td>

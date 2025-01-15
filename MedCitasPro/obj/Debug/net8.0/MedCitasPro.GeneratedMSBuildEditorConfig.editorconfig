@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\lizan\Source\Repos\lizandro2390\MedCitasPro\MedCitasPro
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/AddPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkUGF0aWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/AddSpecialist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkU3BlY2lhbGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/AddUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/DeletePatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlUGF0aWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/DeleteSpecialist.cshtml]
@@ -42,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/EditPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFBhdGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/EditSpecialist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFNwZWNpYWxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/ManagePatients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlUGF0aWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/ManageSpecialists.cshtml]

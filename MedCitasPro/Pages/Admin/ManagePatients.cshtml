@@ -1,0 +1,45 @@
+﻿@page
+@model ManagePatientsModel
+@{
+    ViewData["Title"] = "Gestionar Pacientes";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Gestionar Pacientes</h1>
+
+    <!-- Fila de botones -->
+    <div class="row mb-3">
+        <div class="col-md-6 text-start">
+            <a asp-page="/Dashboard" class="btn btn-secondary">Volver al Dashboard</a>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-page="/Admin/AddPatient" class="btn btn-success">Agregar Paciente</a>
+        </div>
+    </div>
+
+    <!-- Tabla de pacientes -->
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Email</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var patient in Model.Patients)
+            {
+                <tr>
+                    <td>@patient.Name</td>
+                    <td>@patient.Phone</td>
+                    <td>@patient.Email</td>
+                    <td>
+                        <a asp-page="/Admin/EditPatient" asp-route-id="@patient.Id" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-page="/Admin/DeletePatient" asp-route-id="@patient.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,16 @@
+﻿@page "{id:int}"
+@model DeletePatientModel
+@{
+    ViewData["Title"] = "Eliminar Paciente";
+}
+
+<div class="container mt-5">
+    <h1>Eliminar Paciente</h1>
+
+    <p>¿Estás seguro de que deseas eliminar al paciente <strong>@Model.Name</strong>?</p>
+
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-page="/Admin/ManagePatients" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

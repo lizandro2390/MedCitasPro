@@ -24,7 +24,7 @@ namespace MedCitasPro.Pages.Admin
                 return Page();
             }
 
-            // Simular guardar el especialista (luego conectaremos con la base de datos)
+            // Simular guardar el especialista (luego conectaremos con la base de datos)----- PRUEBA
             TempData["SuccessMessage"] = "Especialista agregado correctamente.";
 
             return RedirectToPage("/Admin/ManageSpecialists");

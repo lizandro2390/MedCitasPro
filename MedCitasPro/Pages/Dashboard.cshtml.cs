@@ -16,7 +16,7 @@ namespace MedCitasPro.Pages
                 return RedirectToPage("/Login");
             }
 
-            Role = role; // Asignar el rol al modelo
+            Role = role; // Asignar el rol al modelo//
             return Page();
         }
     }

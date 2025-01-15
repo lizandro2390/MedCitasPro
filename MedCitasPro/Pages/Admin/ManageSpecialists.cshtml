@@ -1,0 +1,47 @@
+﻿@page
+@model ManageSpecialistsModel
+@{
+    ViewData["Title"] = "Gestionar Especialistas";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Gestionar Especialistas</h1>
+
+    <!-- Fila de botones -->
+    <div class="row mb-3">
+        <div class="col-md-6 text-start">
+            <a asp-page="/Dashboard" class="btn btn-secondary">Volver al Dashboard</a>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-page="/Admin/AddSpecialist" class="btn btn-success">Agregar Especialista</a>
+        </div>
+    </div>
+
+    <!-- Tabla de especialistas -->
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Especialidad</th>
+                <th>Teléfono</th>
+                <th>Email</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var specialist in Model.Specialists)
+            {
+                <tr>
+                    <td>@specialist.Name</td>
+                    <td>@specialist.Specialty</td>
+                    <td>@specialist.Phone</td>
+                    <td>@specialist.Email</td>
+                    <td>
+                        <a asp-page="/Admin/EditSpecialist" asp-route-id="@specialist.Id" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-page="/Admin/DeleteSpecialist" asp-route-id="@specialist.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

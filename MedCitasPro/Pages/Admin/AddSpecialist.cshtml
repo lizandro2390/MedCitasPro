@@ -1,0 +1,30 @@
+﻿@page
+@model AddSpecialistModel
+@{
+    ViewData["Title"] = "Agregar Especialista";
+}
+
+<div class="container mt-5">
+    <h1>Agregar Especialista</h1>
+
+    <form method="post">
+        <div class="form-group mb-4">
+            <label for="name">Nombre del Especialista</label>
+            <input type="text" class="form-control" id="name" name="Name" placeholder="Nombre completo" required />
+        </div>
+        <div class="form-group mb-4">
+            <label for="specialty">Especialidad</label>
+            <input type="text" class="form-control" id="specialty" name="Specialty" placeholder="Especialidad médica" required />
+        </div>
+        <div class="form-group mb-4">
+            <label for="phone">Teléfono</label>
+            <input type="text" class="form-control" id="phone" name="Phone" placeholder="Teléfono de contacto" required />
+        </div>
+        <div class="form-group mb-4">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="Email" placeholder="Correo electrónico" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a asp-page="/Admin/ManageSpecialists" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

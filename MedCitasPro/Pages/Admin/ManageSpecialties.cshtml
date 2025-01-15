@@ -1,4 +1,43 @@
 ﻿@page
-@model MedCitasPro.Pages.Admin.ManageSpecialtiesModel
+@model ManageSpecialtiesModel
 @{
+    ViewData["Title"] = "Gestionar Especialidades";
 }
+
+<div class="container mt-5">
+    <h1 class="mb-4">Gestionar Especialidades</h1>
+
+    <!-- Fila de botones -->
+    <div class="row mb-3">
+        <div class="col-md-6 text-start">
+            <a asp-page="/Dashboard" class="btn btn-secondary">Volver al Dashboard</a>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-page="/Admin/AddSpecialty" class="btn btn-success">Agregar Especialidad</a>
+        </div>
+    </div>
+
+    <!-- Tabla de especialidades -->
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Especialidad</th>
+                <th>Descripción</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var specialty in Model.Specialties)
+            {
+                <tr>
+                    <td>@specialty.Name</td>
+                    <td>@specialty.Description</td>
+                    <td>
+                        <a asp-page="/Admin/EditSpecialty" asp-route-id="@specialty.Id" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-page="/Admin/DeleteSpecialty" asp-route-id="@specialty.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

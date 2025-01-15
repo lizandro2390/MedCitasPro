@@ -18,16 +18,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\lizan\Source\Repos\lizandro2390\MedCitasPro\MedCitasPro
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/AddSpecialist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkU3BlY2lhbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/AddSpecialty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkU3BlY2lhbHR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/AddUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/DeleteSpecialty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlU3BlY2lhbHR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/DeleteUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/EditSpecialty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFNwZWNpYWx0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/ManageSpecialists.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlU3BlY2lhbGlzdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lizan/Source/Repos/lizandro2390/MedCitasPro/MedCitasPro/Pages/Admin/ManageSpecialties.cshtml]
